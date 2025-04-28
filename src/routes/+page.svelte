@@ -1,34 +1,53 @@
 <script lang="ts">
   import { writable, derived } from "svelte/store";
+  import { fetchRecipes } from "$lib/api";
+  import { onMount } from "svelte";
 
-  export let data;
-  const { recipes } = data;
+  type Recipe = {
+    id: string;
+    title: string;
+    description: string;
+    tags: string[];
+    ingredients: string[];
+    instructions: string[];
+    image_url?: string;
+  };
+
+  type Tag = string;
+
+  const recipes = writable<Recipe[]>([]); // 🛠 typed properly now!
+
+  onMount(async () => {
+    const data = await fetchRecipes();
+    recipes.set(data);
+  });
 
   const search = writable("");
   const selectedTag = writable("");
 
-  // Get all unique tags
-  const allTags = Array.from(
-    new Set(recipes.flatMap((recipe) => recipe.tags ?? []))
+  const allTags = derived(recipes, ($recipes): Tag[] =>
+    Array.isArray($recipes) && $recipes.length > 0
+      ? Array.from(new Set($recipes.flatMap((recipe) => recipe.tags ?? [])))
+      : []
   );
 
-  // Filter recipes based on search and selected tag
   const filteredRecipes = derived(
-    [search, selectedTag],
-    ([$search, $selectedTag]) => {
-      return recipes.filter((recipe) => {
-        const matchesSearch = recipe.title
-          .toLowerCase()
-          .includes($search.toLowerCase());
-        const matchesTag = $selectedTag
-          ? (recipe.tags ?? []).includes($selectedTag)
-          : true;
-        return matchesSearch && matchesTag;
-      });
+    [recipes, search, selectedTag],
+    ([$recipes, $search, $selectedTag]) => {
+      return Array.isArray($recipes) && $recipes.length > 0
+        ? $recipes.filter((recipe) => {
+            const matchesSearch = recipe.title
+              .toLowerCase()
+              .includes($search.toLowerCase());
+            const matchesTag = $selectedTag
+              ? (recipe.tags ?? []).includes($selectedTag)
+              : true;
+            return matchesSearch && matchesTag;
+          })
+        : [];
     }
   );
 
-  // Placeholder favorites system
   let favoriteRecipeIds = new Set<string>();
 
   function toggleFavorite(id: string) {
