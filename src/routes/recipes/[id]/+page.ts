@@ -1,4 +1,4 @@
-// src/routes/recipe/[id]/+page.ts
+// src/routes/recipes/[id]/+page.ts
 
 import { recipes } from '$lib/data';
 import { error } from '@sveltejs/kit';

@@ -81,7 +81,7 @@
   {#each $filteredRecipes as recipe}
     <div class="relative">
       <a
-        href={`/recipe/${recipe.id}`}
+        href={`/recipes/${recipe.id}`}
         class="block bg-white rounded-xl shadow-md hover:shadow-lg transform hover:-translate-y-1 transition no-underline text-inherit overflow-hidden"
       >
         <img

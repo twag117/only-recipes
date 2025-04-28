@@ -1,4 +1,4 @@
-<!-- src/routes/recipe/[id]/+page.svelte -->
+<!-- src/routes/recipes/[id]/+page.svelte -->
 <script lang="ts">
   export let data;
   const { recipe } = data;
