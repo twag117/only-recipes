@@ -7,23 +7,23 @@
     - Add 'slug' field (for URL paths)
     - Add 'image_url' field (Cloudinary link or placeholder for now)
 
-[ ] Improve UI:
+[X] Improve UI:
     - Add tag filters (already started)
     - Add "x2, x4, x8" multiplier for ingredients on recipe pages
     - Display recipe image on recipe cards and recipe detail pages
     - Add a "catchy" line like "OnlyRecipes — No stories, ads, or BS."
     - Create "Login" modal popup (instead of just a link)
 
-[ ] Expand Navigation Bar:
+[X] Expand Navigation Bar:
     - Add links for "My Favorites" and "Submit a Recipe"
     - Add login/logout button cleanly
     - (Optional) Add small footer (TBD content)
 
-[ ] Build "My Favorites" page:
+[X] Build "My Favorites" page:
     - Show user's saved favorite recipes
     - Show empty state message if no favorites
 
-[ ] Add donation button (Kofi, BuyMeACoffee, etc.)
+[X] Add donation button (Kofi, BuyMeACoffee, etc.)
     - Add somewhere on nav or footer
 
 // --- Backend: FastAPI Setup ---
