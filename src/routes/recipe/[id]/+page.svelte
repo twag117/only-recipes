@@ -40,7 +40,7 @@
 </script>
 
 <svelte:head>
-  <title>{recipe.title} | Only Recipes</title>
+  <title>{recipe.title} | OnlyRecipes</title>
   <meta name="description" content={recipe.description} />
 </svelte:head>
 

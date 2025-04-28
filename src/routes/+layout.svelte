@@ -46,9 +46,10 @@
 <nav class="bg-blue-600 p-4 shadow-md flex justify-between items-center">
   <a
     href="/"
-    class="text-white text-xl font-bold hover:text-gray-300 transition"
+    class="flex items-center gap-2 text-white text-xl font-bold hover:text-gray-300 transition"
   >
-    Only Recipes
+    <span>🏠</span>
+    <span>OnlyRecipes</span>
   </a>
 
   <div>
