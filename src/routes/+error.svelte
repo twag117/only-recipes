@@ -4,7 +4,7 @@
 </script>
 
 <svelte:head>
-  <title>Page Not Found | Recipe Book</title>
+  <title>Page Not Found | OnlyRecipes</title>
 </svelte:head>
 
 <div

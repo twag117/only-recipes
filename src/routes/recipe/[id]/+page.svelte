@@ -3,9 +3,18 @@
   export let data;
   const { recipe } = data;
 
-  // Cook Mode
   let cookMode = false;
   let wakeLock: WakeLockSentinel | null = null;
+
+  let favoriteRecipeIds = new Set<string>();
+
+  function toggleFavorite(id: string) {
+    if (favoriteRecipeIds.has(id)) {
+      favoriteRecipeIds.delete(id);
+    } else {
+      favoriteRecipeIds.add(id);
+    }
+  }
 
   async function toggleCookMode() {
     cookMode = !cookMode;
@@ -24,17 +33,6 @@
       } catch (err) {
         console.error("Cook Mode Release Error:", err);
       }
-    }
-  }
-
-  // Placeholder: pretend favorites in memory
-  let favoriteRecipeIds = new Set<string>();
-
-  function toggleFavorite(id: string) {
-    if (favoriteRecipeIds.has(id)) {
-      favoriteRecipeIds.delete(id);
-    } else {
-      favoriteRecipeIds.add(id);
     }
   }
 </script>
@@ -63,7 +61,20 @@
       {/if}
     </button>
   </div>
+
   <p class="mb-4">{recipe.description}</p>
+
+  {#if recipe.tags && recipe.tags.length > 0}
+    <div class="flex flex-wrap gap-2 mb-6">
+      {#each recipe.tags as tag}
+        <span
+          class="bg-blue-100 text-blue-800 text-xs font-semibold px-3 py-1 rounded-full"
+        >
+          #{tag}
+        </span>
+      {/each}
+    </div>
+  {/if}
 
   <h2 class="text-2xl mb-2">Ingredients</h2>
   <ul class="list-disc list-inside mb-4">

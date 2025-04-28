@@ -2,7 +2,7 @@
 
 // --- Frontend: Immediate Upgrades ---
 
-[ ] Update all recipe data:
+[X] Update all recipe data:
     - Add 'tags' array to each recipe
     - Add 'slug' field (for URL paths)
     - Add 'image_url' field (Cloudinary link or placeholder for now)
