@@ -48,9 +48,9 @@
   class="border p-2 w-full mb-4"
 />
 
-{#if $allTags.length}
+{#if allTags.length}
   <div class="flex flex-wrap gap-2 mb-6">
-    {#each $allTags as tag}
+    {#each allTags as tag}
       <button
         class="px-3 py-1 rounded-full border text-sm hover:bg-blue-100 transition
         {$selectedTag === tag
