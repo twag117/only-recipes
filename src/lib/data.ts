@@ -22,7 +22,7 @@ export const recipes: Recipe[] = [
       'Heat tomato sauce in a pan.',
       'Drain pasta and mix with the sauce. Serve hot.'
     ],
-    image_url: "https://via.placeholder.com/400x300.png?text=OnlyRecipes"
+    image_url: "https://placehold.co/400x300?text=OnlyRecipes"
   },
   {
     id: 'pancakes',
@@ -35,7 +35,7 @@ export const recipes: Recipe[] = [
       'Add eggs and milk, and stir until smooth.',
       'Pour batter onto a hot griddle and cook until golden brown on each side.'
     ],
-    image_url: "https://via.placeholder.com/400x300.png?text=OnlyRecipes"
+    image_url: "https://placehold.co/400x300?text=OnlyRecipes"
   },
   {
     id: 'salad',
@@ -48,7 +48,7 @@ export const recipes: Recipe[] = [
       'Mix them in a bowl with your favorite dressing.',
       'Serve immediately.'
     ],
-    image_url: "https://via.placeholder.com/400x300.png?text=OnlyRecipes"
+    image_url: "https://placehold.co/400x300?text=OnlyRecipes"
   },
   {
     id: 'grilled-cheese',
@@ -61,7 +61,7 @@ export const recipes: Recipe[] = [
       'Place cheese between two slices.',
       'Grill on a pan until golden brown on both sides.'
     ],
-    image_url: "https://via.placeholder.com/400x300.png?text=OnlyRecipes"
+    image_url: "https://placehold.co/400x300?text=OnlyRecipes"
   },
   {
     id: 'chocolate-chip-cookies',
@@ -74,7 +74,7 @@ export const recipes: Recipe[] = [
       'Combine everything and fold in chocolate chips.',
       'Scoop onto baking sheet and bake until golden.'
     ],
-    image_url: "https://via.placeholder.com/400x300.png?text=OnlyRecipes"
+    image_url: "https://placehold.co/400x300?text=OnlyRecipes"
   },
   {
     id: 'chicken-curry',
@@ -87,7 +87,7 @@ export const recipes: Recipe[] = [
       'Add chicken and brown.',
       'Add spices and tomatoes, simmer until chicken is cooked.'
     ],
-    image_url: "https://via.placeholder.com/400x300.png?text=OnlyRecipes"
+    image_url: "https://placehold.co/400x300?text=OnlyRecipes"
   },
   {
     id: 'french-toast',
@@ -100,7 +100,7 @@ export const recipes: Recipe[] = [
       'Dip bread slices in the mixture.',
       'Cook on a pan until golden brown.'
     ],
-    image_url: "https://via.placeholder.com/400x300.png?text=OnlyRecipes"
+    image_url: "https://placehold.co/400x300?text=OnlyRecipes"
   },
   {
     id: 'smoothie-bowl',
@@ -113,7 +113,7 @@ export const recipes: Recipe[] = [
       'Pour into a bowl.',
       'Top with granola and fresh fruit.'
     ],
-    image_url: "https://via.placeholder.com/400x300.png?text=OnlyRecipes"
+    image_url: "https://placehold.co/400x300?text=OnlyRecipes"
   },
   {
     id: 'omelette',
@@ -126,7 +126,7 @@ export const recipes: Recipe[] = [
       'Pour into a hot pan and cook slightly.',
       'Add cheese and veggies, fold and cook until done.'
     ],
-    image_url: "https://via.placeholder.com/400x300.png?text=OnlyRecipes"
+    image_url: "https://placehold.co/400x300?text=OnlyRecipes"
   },
   {
     id: 'beef-tacos',
@@ -139,7 +139,7 @@ export const recipes: Recipe[] = [
       'Fill taco shells with beef and toppings.',
       'Serve with salsa.'
     ],
-    image_url: "https://via.placeholder.com/400x300.png?text=OnlyRecipes"
+    image_url: "https://placehold.co/400x300?text=OnlyRecipes"
   },
   {
     id: 'banana-bread',
@@ -152,7 +152,7 @@ export const recipes: Recipe[] = [
       'Fold in dry ingredients.',
       'Pour into loaf pan and bake.'
     ],
-    image_url: "https://via.placeholder.com/400x300.png?text=OnlyRecipes"
+    image_url: "https://placehold.co/400x300?text=OnlyRecipes"
   },
   {
     id: 'caesar-salad',
@@ -165,7 +165,7 @@ export const recipes: Recipe[] = [
       'Toss with dressing, croutons, and cheese.',
       'Serve immediately.'
     ],
-    image_url: "https://via.placeholder.com/400x300.png?text=OnlyRecipes"
+    image_url: "https://placehold.co/400x300?text=OnlyRecipes"
   },
   {
     id: 'mac-and-cheese',
@@ -178,7 +178,7 @@ export const recipes: Recipe[] = [
       'Make a cheese sauce with milk and butter.',
       'Combine pasta with sauce and bake.'
     ],
-    image_url: "https://via.placeholder.com/400x300.png?text=OnlyRecipes"
+    image_url: "https://placehold.co/400x300?text=OnlyRecipes"
   },
   {
     id: 'veggie-stir-fry',
@@ -191,7 +191,7 @@ export const recipes: Recipe[] = [
       'Stir fry quickly on high heat.',
       'Add soy sauce and serve over rice.'
     ],
-    image_url: "https://via.placeholder.com/400x300.png?text=OnlyRecipes"
+    image_url: "https://placehold.co/400x300?text=OnlyRecipes"
   },
   {
     id: 'avocado-toast',
@@ -204,7 +204,7 @@ export const recipes: Recipe[] = [
       'Smash avocado and season.',
       'Spread on toast and drizzle with lemon juice.'
     ],
-    image_url: "https://via.placeholder.com/400x300.png?text=OnlyRecipes"
+    image_url: "https://placehold.co/400x300?text=OnlyRecipes"
   },
   {
     id: 'chili',
@@ -217,7 +217,7 @@ export const recipes: Recipe[] = [
       'Add beans, tomatoes, and spices.',
       'Simmer for 30 minutes.'
     ],
-    image_url: "https://via.placeholder.com/400x300.png?text=OnlyRecipes"
+    image_url: "https://placehold.co/400x300?text=OnlyRecipes"
   },
   {
     id: 'garlic-bread',
@@ -230,7 +230,7 @@ export const recipes: Recipe[] = [
       'Spread on bread slices.',
       'Bake until golden and crisp.'
     ],
-    image_url: "https://via.placeholder.com/400x300.png?text=OnlyRecipes"
+    image_url: "https://placehold.co/400x300?text=OnlyRecipes"
   },
   {
     id: 'vegetable-soup',
@@ -243,7 +243,7 @@ export const recipes: Recipe[] = [
       'Add tomatoes and broth.',
       'Simmer until vegetables are tender.'
     ],
-    image_url: "https://via.placeholder.com/400x300.png?text=OnlyRecipes"
+    image_url: "https://placehold.co/400x300?text=OnlyRecipes"
   },
   {
     id: 'apple-pie',
@@ -256,7 +256,7 @@ export const recipes: Recipe[] = [
       'Place in pie crust.',
       'Bake until golden brown.'
     ],
-    image_url: "https://via.placeholder.com/400x300.png?text=OnlyRecipes"
+    image_url: "https://placehold.co/400x300?text=OnlyRecipes"
   },
   {
     id: 'fried-rice',
@@ -269,7 +269,7 @@ export const recipes: Recipe[] = [
       'Scramble eggs and add vegetables.',
       'Mix in rice and soy sauce.'
     ],
-    image_url: "https://via.placeholder.com/400x300.png?text=OnlyRecipes"
+    image_url: "https://placehold.co/400x300?text=OnlyRecipes"
   },
   {
     id: 'lasagna',
@@ -282,7 +282,7 @@ export const recipes: Recipe[] = [
       'Layer noodles, beef, ricotta, and sauce.',
       'Bake until bubbly.'
     ],
-    image_url: "https://via.placeholder.com/400x300.png?text=OnlyRecipes"
+    image_url: "https://placehold.co/400x300?text=OnlyRecipes"
   },
   {
     id: 'chicken-noodle-soup',
@@ -295,7 +295,7 @@ export const recipes: Recipe[] = [
       'Sauté carrots and celery.',
       'Add broth, noodles, and chicken.'
     ],
-    image_url: "https://via.placeholder.com/400x300.png?text=OnlyRecipes"
+    image_url: "https://placehold.co/400x300?text=OnlyRecipes"
   },
   {
     id: 'baked-salmon',
@@ -308,7 +308,7 @@ export const recipes: Recipe[] = [
       'Drizzle with olive oil, lemon juice, and herbs.',
       'Bake until cooked through.'
     ],
-    image_url: "https://via.placeholder.com/400x300.png?text=OnlyRecipes"
+    image_url: "https://placehold.co/400x300?text=OnlyRecipes"
   },
   {
     id: 'quiche',
@@ -321,7 +321,7 @@ export const recipes: Recipe[] = [
       'Add vegetables and pour into pie crust.',
       'Bake until set.'
     ],
-    image_url: "https://via.placeholder.com/400x300.png?text=OnlyRecipes"
+    image_url: "https://placehold.co/400x300?text=OnlyRecipes"
   },
   {
     id: 'spaghetti-carbonara',
@@ -334,7 +334,7 @@ export const recipes: Recipe[] = [
       'Mix eggs and cheese.',
       'Toss pasta with egg mixture and bacon.'
     ],
-    image_url: "https://via.placeholder.com/400x300.png?text=OnlyRecipes"
+    image_url: "https://placehold.co/400x300?text=OnlyRecipes"
   },
   {
     id: 'chicken-fajitas',
@@ -347,7 +347,7 @@ export const recipes: Recipe[] = [
       'Cook in a hot pan until chicken is done.',
       'Serve with tortillas.'
     ],
-    image_url: "https://via.placeholder.com/400x300.png?text=OnlyRecipes"
+    image_url: "https://placehold.co/400x300?text=OnlyRecipes"
   },
   {
     id: 'blueberry-muffins',
@@ -360,7 +360,7 @@ export const recipes: Recipe[] = [
       'Add eggs and blueberries.',
       'Bake until golden.'
     ],
-    image_url: "https://via.placeholder.com/400x300.png?text=OnlyRecipes"
+    image_url: "https://placehold.co/400x300?text=OnlyRecipes"
   },
   {
     id: 'caprese-salad',
@@ -373,7 +373,7 @@ export const recipes: Recipe[] = [
       'Arrange on a plate with basil.',
       'Drizzle with olive oil.'
     ],
-    image_url: "https://via.placeholder.com/400x300.png?text=OnlyRecipes"
+    image_url: "https://placehold.co/400x300?text=OnlyRecipes"
   },
   {
     id: 'beef-stew',
@@ -386,7 +386,7 @@ export const recipes: Recipe[] = [
       'Add vegetables and broth.',
       'Simmer until beef is tender.'
     ],
-    image_url: "https://via.placeholder.com/400x300.png?text=OnlyRecipes"
+    image_url: "https://placehold.co/400x300?text=OnlyRecipes"
   },
   {
     id: 'pesto-pasta',
@@ -399,7 +399,7 @@ export const recipes: Recipe[] = [
       'Cook pasta and toss with pesto.',
       'Serve hot.'
     ],
-    image_url: "https://via.placeholder.com/400x300.png?text=OnlyRecipes"
+    image_url: "https://placehold.co/400x300?text=OnlyRecipes"
   },
   {
     id: 'chicken-alfredo',
@@ -412,7 +412,7 @@ export const recipes: Recipe[] = [
       'Make Alfredo sauce with cream and parmesan.',
       'Combine pasta, chicken, and sauce.'
     ],
-    image_url: "https://via.placeholder.com/400x300.png?text=OnlyRecipes"
+    image_url: "https://placehold.co/400x300?text=OnlyRecipes"
   },
   {
     id: 'stuffed-bell-peppers',
@@ -425,7 +425,7 @@ export const recipes: Recipe[] = [
       'Mix with tomato sauce.',
       'Stuff peppers and bake.'
     ],
-    image_url: "https://via.placeholder.com/400x300.png?text=OnlyRecipes"
+    image_url: "https://placehold.co/400x300?text=OnlyRecipes"
   },
   {
     id: 'hummus',
@@ -438,7 +438,7 @@ export const recipes: Recipe[] = [
       'Season with salt and pepper.',
       'Serve with pita bread.'
     ],
-    image_url: "https://via.placeholder.com/400x300.png?text=OnlyRecipes"
+    image_url: "https://placehold.co/400x300?text=OnlyRecipes"
   },
   {
     id: 'shrimp-scampi',
@@ -451,7 +451,7 @@ export const recipes: Recipe[] = [
       'Add shrimp and cook until pink.',
       'Finish with lemon juice.'
     ],
-    image_url: "https://via.placeholder.com/400x300.png?text=OnlyRecipes"
+    image_url: "https://placehold.co/400x300?text=OnlyRecipes"
   },
   {
     id: 'minestrone-soup',
@@ -464,7 +464,7 @@ export const recipes: Recipe[] = [
       'Add tomatoes, broth, and pasta.',
       'Simmer until pasta is cooked.'
     ],
-    image_url: "https://via.placeholder.com/400x300.png?text=OnlyRecipes"
+    image_url: "https://placehold.co/400x300?text=OnlyRecipes"
   },
   {
     id: 'chicken-parmesan',
@@ -477,7 +477,7 @@ export const recipes: Recipe[] = [
       'Top with tomato sauce and mozzarella.',
       'Bake until cheese is melted.'
     ],
-    image_url: "https://via.placeholder.com/400x300.png?text=OnlyRecipes"
+    image_url: "https://placehold.co/400x300?text=OnlyRecipes"
   },
   {
     id: 'guacamole',
@@ -490,7 +490,7 @@ export const recipes: Recipe[] = [
       'Mix with lime juice, cilantro, and onion.',
       'Serve with chips.'
     ],
-    image_url: "https://via.placeholder.com/400x300.png?text=OnlyRecipes"
+    image_url: "https://placehold.co/400x300?text=OnlyRecipes"
   },
   {
     id: 'baked-ziti',
@@ -503,7 +503,7 @@ export const recipes: Recipe[] = [
       'Mix with tomato sauce and ricotta.',
       'Top with mozzarella and bake.'
     ],
-    image_url: "https://via.placeholder.com/400x300.png?text=OnlyRecipes"
+    image_url: "https://placehold.co/400x300?text=OnlyRecipes"
   },
   {
     id: 'chicken-caesar-wrap',
@@ -516,7 +516,7 @@ export const recipes: Recipe[] = [
       'Fill tortilla with chicken, lettuce, and dressing.',
       'Roll up and serve.'
     ],
-    image_url: "https://via.placeholder.com/400x300.png?text=OnlyRecipes"
+    image_url: "https://placehold.co/400x300?text=OnlyRecipes"
   },
   {
     id: 'vegetable-curry',
@@ -529,7 +529,7 @@ export const recipes: Recipe[] = [
       'Add curry powder and coconut milk.',
       'Simmer and serve over rice.'
     ],
-    image_url: "https://via.placeholder.com/400x300.png?text=OnlyRecipes"
+    image_url: "https://placehold.co/400x300?text=OnlyRecipes"
   },
   {
     id: 'chocolate-cake',
@@ -542,7 +542,7 @@ export const recipes: Recipe[] = [
       'Add eggs and mix until smooth.',
       'Bake until a toothpick comes out clean.'
     ],
-    image_url: "https://via.placeholder.com/400x300.png?text=OnlyRecipes"
+    image_url: "https://placehold.co/400x300?text=OnlyRecipes"
   },
   {
     id: 'tuna-salad',
@@ -555,7 +555,7 @@ export const recipes: Recipe[] = [
       'Add chopped celery and onion.',
       'Serve on bread or crackers.'
     ],
-    image_url: "https://via.placeholder.com/400x300.png?text=OnlyRecipes"
+    image_url: "https://placehold.co/400x300?text=OnlyRecipes"
   },
   {
     id: 'beef-stroganoff',
@@ -568,7 +568,7 @@ export const recipes: Recipe[] = [
       'Add sour cream and simmer.',
       'Serve over noodles.'
     ],
-    image_url: "https://via.placeholder.com/400x300.png?text=OnlyRecipes"
+    image_url: "https://placehold.co/400x300?text=OnlyRecipes"
   },
   {
     id: 'apple-crisp',
@@ -581,7 +581,7 @@ export const recipes: Recipe[] = [
       'Mix oats, sugar, and butter.',
       'Sprinkle over apples and bake.'
     ],
-    image_url: "https://via.placeholder.com/400x300.png?text=OnlyRecipes"
+    image_url: "https://placehold.co/400x300?text=OnlyRecipes"
   },
   {
     id: 'eggplant-parmesan',
@@ -594,7 +594,7 @@ export const recipes: Recipe[] = [
       'Fry until golden and top with sauce and cheese.',
       'Bake until melted.'
     ],
-    image_url: "https://via.placeholder.com/400x300.png?text=OnlyRecipes"
+    image_url: "https://placehold.co/400x300?text=OnlyRecipes"
   },
   {
     id: 'chicken-quesadilla',
@@ -607,7 +607,7 @@ export const recipes: Recipe[] = [
       'Fill tortilla with chicken and cheese.',
       'Grill until crispy and serve with salsa.'
     ],
-    image_url: "https://via.placeholder.com/400x300.png?text=OnlyRecipes"
+    image_url: "https://placehold.co/400x300?text=OnlyRecipes"
   },
   {
     id: 'lentil-soup',
@@ -620,7 +620,7 @@ export const recipes: Recipe[] = [
       'Add lentils and broth.',
       'Simmer until lentils are tender.'
     ],
-    image_url: "https://via.placeholder.com/400x300.png?text=OnlyRecipes"
+    image_url: "https://placehold.co/400x300?text=OnlyRecipes"
   },
   {
     id: 'peanut-butter-cookies',
@@ -633,7 +633,7 @@ export const recipes: Recipe[] = [
       'Add flour and eggs.',
       'Bake until golden.'
     ],
-    image_url: "https://via.placeholder.com/400x300.png?text=OnlyRecipes"
+    image_url: "https://placehold.co/400x300?text=OnlyRecipes"
   },
   {
     id: 'shrimp-fried-rice',
@@ -646,7 +646,7 @@ export const recipes: Recipe[] = [
       'Scramble eggs and add vegetables.',
       'Mix in rice, shrimp, and soy sauce.'
     ],
-    image_url: "https://via.placeholder.com/400x300.png?text=OnlyRecipes"
+    image_url: "https://placehold.co/400x300?text=OnlyRecipes"
   },
   {
     id: 'chicken-pot-pie',
@@ -659,7 +659,7 @@ export const recipes: Recipe[] = [
       'Mix with cream and place in pie crust.',
       'Bake until golden.'
     ],
-    image_url: "https://via.placeholder.com/400x300.png?text=OnlyRecipes"
+    image_url: "https://placehold.co/400x300?text=OnlyRecipes"
   },
   {
     id: 'vegetarian-chili',
@@ -672,6 +672,6 @@ export const recipes: Recipe[] = [
       'Add beans, tomatoes, chili powder, and cumin.',
       'Simmer for 20-30 minutes until flavors meld together.'
     ],
-    image_url: "https://via.placeholder.com/400x300.png?text=OnlyRecipes"
+    image_url: "https://placehold.co/400x300?text=OnlyRecipes"
   }
 ];
