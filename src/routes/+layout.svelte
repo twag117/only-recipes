@@ -56,14 +56,32 @@
 
 <!-- Navigation bar -->
 <nav class="bg-blue-600 p-4 shadow-md flex justify-between items-center">
-  <a
-    href="/"
-    class="flex items-center gap-2 text-white text-xl font-bold hover:text-gray-300 transition"
-  >
-    <span>🏠</span>
-    <span>OnlyRecipes</span>
-  </a>
+  <!-- Left side (Logo + Links) -->
+  <div class="flex items-center gap-6">
+    <a
+      href="/"
+      class="flex items-center gap-2 text-white text-xl font-bold hover:text-gray-300 transition"
+    >
+      <span>🏠</span>
+      <span>OnlyRecipes</span>
+    </a>
 
+    <a
+      href="/favorites"
+      class="text-white hover:text-gray-300 transition text-sm font-semibold"
+    >
+      🧡 My Favorites
+    </a>
+
+    <a
+      href="/submit"
+      class="text-white hover:text-gray-300 transition text-sm font-semibold"
+    >
+      ✍️ Submit Recipe
+    </a>
+  </div>
+
+  <!-- Right side (Login / Logout) -->
   <div>
     {#if user}
       <div class="flex items-center gap-3 text-white">
@@ -71,7 +89,7 @@
         <span>{user.name}</span>
         <button
           on:click={logout}
-          class="bg-red-600 text-white px-4 py-2 rounded-lg hover:bg-red-700 ml-4"
+          class="bg-red-600 text-white px-4 py-2 rounded-lg hover:bg-red-700 ml-4 cursor-pointer"
         >
           Logout
         </button>
