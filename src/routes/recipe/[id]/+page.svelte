@@ -45,7 +45,14 @@
 </svelte:head>
 
 <div class="max-w-2xl mx-auto p-6 bg-white shadow-md rounded-lg">
-  <!-- <h1 class="text-3xl mb-2">{recipe.title}</h1> -->
+  {#if recipe.image_url || true}
+    <img
+      src={recipe.image_url || "/placeholder.jpg"}
+      alt={recipe.title}
+      class="w-full max-h-96 object-cover rounded-lg mb-6"
+    />
+  {/if}
+
   <div class="flex justify-between items-start mb-4">
     <h1 class="text-3xl font-bold">{recipe.title}</h1>
     <button on:click={() => toggleFavorite(recipe.id)} class="text-3xl">

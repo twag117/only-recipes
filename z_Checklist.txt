@@ -1,0 +1,86 @@
+// ====== OnlyRecipes Full Build Checklist ======
+
+// --- Frontend: Immediate Upgrades ---
+
+[ ] Update all recipe data:
+    - Add 'tags' array to each recipe
+    - Add 'slug' field (for URL paths)
+    - Add 'image_url' field (Cloudinary link or placeholder for now)
+
+[ ] Improve UI:
+    - Add tag filters (already started)
+    - Add "x2, x4, x8" multiplier for ingredients on recipe pages
+    - Display recipe image on recipe cards and recipe detail pages
+    - Add a "catchy" line like "OnlyRecipes — No stories, ads, or BS."
+    - Create "Login" modal popup (instead of just a link)
+
+[ ] Expand Navigation Bar:
+    - Add links for "My Favorites" and "Submit a Recipe"
+    - Add login/logout button cleanly
+    - (Optional) Add small footer (TBD content)
+
+[ ] Build "My Favorites" page:
+    - Show user's saved favorite recipes
+    - Show empty state message if no favorites
+
+[ ] Add donation button (Kofi, BuyMeACoffee, etc.)
+    - Add somewhere on nav or footer
+
+// --- Backend: FastAPI Setup ---
+
+[ ] Set up Python/FastAPI project locally
+    - Create project folder separate from SvelteKit
+
+[ ] Database: Swap JSON for SQLite
+    - Set up SQLite database
+    - Create 'recipes' table (id, slug, title, description, ingredients, instructions, tags, image_url)
+    - Create 'favorites' table (user_id, recipe_id)
+
+[ ] FastAPI Endpoints:
+    - [POST] /recipes — submit a new recipe (with image_url)
+    - [GET] /recipes — get all recipes
+    - [GET] /recipes/{slug} — get a single recipe
+    - [POST] /favorites — save a favorite for a user
+    - [GET] /favorites/{user_id} — get a user's favorite recipes
+    - [POST] /auth/verify — verify Google token and return user_id
+
+[ ] Authentication:
+    - Set up Google OAuth2 on frontend (Google Identity API)
+    - Send token to backend FastAPI
+    - Backend verifies token with Google's servers
+
+[ ] Image Handling:
+    - Upload recipe images to Cloudinary
+    - Save Cloudinary image URLs with recipes in database
+
+[ ] Link Frontend + Backend:
+    - Change SvelteKit fetches to call FastAPI
+    - Submit recipes through API instead of local JSON
+    - Save and load favorites through API
+
+[ ] Update Submit Page:
+    - Connect form submission to API endpoint
+    - Redirect back to home after successful recipe submission
+
+// --- Hosting: Production Launch ---
+
+[ ] Deploy FastAPI backend:
+    - Set up Railway account
+    - Deploy Python app + SQLite database
+    - Configure domain settings if needed
+
+[ ] Confirm Frontend Deployment:
+    - GitHub repo
+    - Vercel project
+    - Link backend API URL properly in frontend env vars
+
+// --- (Optional Extras: Future Polish) ---
+
+[ ] Add multi-tag filtering (AND/OR tag filters)
+[ ] Add "sort by" options (recent, popular, etc.)
+[ ] Add user profile page (favorites, submitted recipes)
+[ ] Add admin panel for recipe moderation (if allowing user submissions)
+[ ] Upgrade SQLite to Postgres when scaling up
+[ ] Add PWA (Progressive Web App) install button
+
+// ====== YOU GOT THIS! ======
